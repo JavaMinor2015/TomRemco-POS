@@ -56,7 +56,7 @@ public class Main {
 
         // TODO multiple coupon of same type not supported yet
         register1.payWithTypeCoupon(PreferenceUtil.getPRICING_CATEGORIES()[NumUtil.getRandomInt(PreferenceUtil.getPRICING_CATEGORIES().length)], 100);
-        register1.payWithDigital(-1);
+        register1.payWithDigital(-1, "1111");
 
         // do the finishing up
         register1.finishUpSale();

@@ -1,10 +1,12 @@
 package e20150907.fiche.domain.abs;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 /**
  * Created by alex on 9/9/15.
  */
+@NoArgsConstructor
 public abstract class PaymentItem {
     @Getter
     private double amount;
@@ -31,4 +33,6 @@ public abstract class PaymentItem {
         }
         return true;
     }
+
+    public abstract boolean isValid(double price);
 }

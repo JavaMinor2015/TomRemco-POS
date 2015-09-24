@@ -1,6 +1,4 @@
-package e20150907.fiche.domain.concrete.paymentitems;
-
-import e20150907.fiche.domain.abs.PaymentItem;
+package controller;
 
 /**
  * Created by alex on 9/10/15.

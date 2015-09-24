@@ -72,8 +72,8 @@ public class CashRegisterImpl implements CashRegister {
     }
 
     @Override
-    public void payWithDigital(final double amount) {
-        sale.handlePayment(new Digital(amount));
+    public void payWithDigital(final double amount, final String digitcode) {
+        sale.handlePayment(new Digital(amount, digitcode));
     }
 
     /**

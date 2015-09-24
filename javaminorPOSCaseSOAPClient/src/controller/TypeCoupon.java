@@ -1,4 +1,4 @@
-package e20150907.fiche.domain.concrete.paymentitems;
+package controller;
 
 import e20150907.fiche.domain.abs.PaymentItem;
 
