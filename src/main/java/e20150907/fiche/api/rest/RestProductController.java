@@ -1,4 +1,4 @@
-package e20150907.fiche.api;
+package e20150907.fiche.api.rest;
 
 import com.google.gson.Gson;
 import e20150907.fiche.domain.abs.Discount;

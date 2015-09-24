@@ -1,4 +1,4 @@
-package e20150907.fiche.api;
+package e20150907.fiche.api.rest;
 
 import com.sun.jersey.api.container.httpserver.HttpServerFactory;
 import com.sun.net.httpserver.HttpServer;
